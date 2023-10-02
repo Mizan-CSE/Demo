@@ -33,6 +33,7 @@ public class TestNGTodoMobile {
         Thread.sleep(100);
         driver.get("https://lambdatest.github.io/sample-todo-app/");
 
+        System.out.println("New Changes");
         System.out.println("Checking Box");
         driver.findElement(By.name("li1")).click();
 
