@@ -7,6 +7,7 @@ import java.net.URL;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Assert;
@@ -23,7 +24,10 @@ public class TestNGTodoMobile {
     @BeforeMethod
     public void setup(Method m, ITestContext ctx) throws MalformedURLException {
         WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
+        //driver = new ChromeDriver();
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--remote-allow-origins=*");
+        driver = new ChromeDriver(options);
     }
 
     @Test
@@ -77,7 +81,7 @@ public class TestNGTodoMobile {
 
         // Let's also assert that the todo we added is present in the list.
 
-        spanText = driver.findElementByXPath("/html/body/div/div/div/ul/li[9]/span").getText();
+        spanText = driver.findElement(By.xpath("/html/body/div/div/div/ul/li[9]/span")).getText();
         Assert.assertEquals("Get Taste of Lambda and Stick to It", spanText);
         Status = "passed";
         Thread.sleep(800);
