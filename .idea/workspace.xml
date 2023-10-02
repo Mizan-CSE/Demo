@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ff27078-8321-4b4f-88ee-858ddc94bc5d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/lambdatest/TestNGTodo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lambdatest/TestNGTodo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/lambdatest/TestNGTodo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lambdatest/TestNGTodo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/lambdatest/TestNGTodoMobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lambdatest/TestNGTodoMobile.java" afterDir="false" />
-    </list>
+    <list default="true" id="5ff27078-8321-4b4f-88ee-858ddc94bc5d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +44,7 @@
       <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestNGTodo1">
+  <component name="RunManager" selected="TestNG.&lt;default&gt;">
     <configuration name="C:/Users/Md.Mizanur Rahman/Documents/Java-TestNG-Selenium/single.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Java-TestNG-Selenium" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/single.xml" />
@@ -95,8 +90,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Java-TestNG-Selenium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.&lt;default&gt;" />
         <item itemvalue="TestNG.TestNGTodo1" />
         <item itemvalue="TestNG.TestNGTodo1.basicTest" />
         <item itemvalue="TestNG.C:/Users/Md.Mizanur Rahman/Documents/Java-TestNG-Selenium/single.xml" />
@@ -126,13 +132,20 @@
       <option name="project" value="LOCAL" />
       <updated>1696223215599</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="driver update">
+      <created>1696223859188</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696223859188</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <MESSAGE value="driver update" />
     <MESSAGE value="pom update" />
-    <option name="LAST_COMMIT_MESSAGE" value="pom update" />
+    <MESSAGE value="driver update" />
+    <option name="LAST_COMMIT_MESSAGE" value="driver update" />
   </component>
 </project>
