@@ -4,6 +4,7 @@ import java.lang.reflect.Method;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -21,7 +22,7 @@ public class TestNGTodo3 {
 
     @BeforeMethod
     public void setup(Method m, ITestContext ctx) throws MalformedURLException {
-        System.setProperty("webdriver.chrome.driver", "/Users/pramod/Documents/driver/chromedriver");
+        WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
 
     }
